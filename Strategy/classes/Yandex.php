@@ -2,9 +2,9 @@
 
 namespace classes;
 
-use interfaces\IQStrategy;
+use interfaces\IYStrategy;
 
-class Qiwi implements IQStrategy
+class Yandex implements IYStrategy
 {
 
 }

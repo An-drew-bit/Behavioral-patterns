@@ -2,9 +2,9 @@
 
 namespace classes;
 
-use interfaces\IQStrategy;
+use interfaces\IWStrategy;
 
-class Yandex implements IQStrategy
+class WebMoney implements IWStrategy
 {
 
 }
