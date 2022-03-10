@@ -16,4 +16,16 @@ class Checkout
         $this->yStrategy = $yStrategy;
         $this->wStrategy = $wStrategy;
     }
+
+    public function setCheckout(IQStrategy $qStrategy, IYStrategy $yStrategy, IWStrategy $wStrategy)
+    {
+        $this->qStrategy = $qStrategy;
+        $this->yStrategy = $yStrategy;
+        $this->wStrategy = $wStrategy;
+    }
+
+    public function getPay()
+    {
+        
+    }
 }
